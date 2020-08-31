@@ -47,7 +47,7 @@ public class CT001_ValidarTituloAnoIdiomaDoFilme {
                 .body(base.getCorpoFilmeNaoEncontrado())
                 .when().post(baseURL);
         respostaDoServidor.then().assertThat()
-                .body("Response", containsString("False"))
+                .body("Response", equalTo("False"))
                 .body("Error", containsString("Movie not found!"))
                 .statusCode(200);
         System.out.println("Mensagem do servidor: \n" + respostaDoServidor.body().asString());
