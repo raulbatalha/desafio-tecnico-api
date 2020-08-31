@@ -34,9 +34,7 @@ public class CT001_ValidarTituloAnoIdiomaDoFilme {
         tituloDoFilme = respostaDoServidor.jsonPath().getString("Title");
         anoDoFilme = respostaDoServidor.jsonPath().getString("Year");
         idiomaDoFilme = respostaDoServidor.jsonPath().getString("Language");
-        System.out.println("Titulo do filme: " + tituloDoFilme);
-        System.out.println("Ano do Filme: " + anoDoFilme);
-        System.out.println("Idioma do Filme: " + idiomaDoFilme);
+        System.out.println("Titulo do filme: " + tituloDoFilme + "\nAno do Filme: " + anoDoFilme + "\nIdioma do Filme: " + idiomaDoFilme);
     }
 
     @Test
