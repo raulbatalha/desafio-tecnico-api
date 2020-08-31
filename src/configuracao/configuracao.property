@@ -1,0 +1,8 @@
+########################## Filme não encontrado ####################################
+API_KEY=52ec71bf
+ID_DO_FILME=tt1285016
+CorpoFilmeEncontrado={"Title":"The Social Network","Year": 2010,"Language": "English, French" }
+
+########################## Filme não encontrado ####################################
+ID_DO_FILME_NAO_ENCONTRADO=AnalistaQA_Noesis
+CorpoFilmeNaoEncontrado={"Response": "False", "Error": "Movie not found!"}
